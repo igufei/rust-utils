@@ -1,4 +1,4 @@
-use crypto::{sha1::Sha1, digest::Digest};
+use crypto::{digest::Digest, sha1::Sha1};
 
 pub fn sha1(input_str: &str) -> String {
     let mut hasher = Sha1::new();
